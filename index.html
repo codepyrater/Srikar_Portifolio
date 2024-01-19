@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162313419-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+			gtag("config", "UA-162313419-1");
+		</script>
+		<!-- Google Analytics Ends  -->
+		<title>Srikar Punna | portfolio | Full Stack Developer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Hi, I am Srikar, I am a Full Stack Developer, If you need a Website, then email me may be. - programmerSrikar"
+		/>
+		<meta name="keywords" content="PortFolio,Srikar Punna, Web Developer" />
+		<!-- Twitter Card  -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@Srikar" />
+		<meta name="twitter:creator" content="@Srikar" />
+		<meta name="twitter:title" content="Srikar" />
+		<meta
+			name="twitter:description"
+			content="Hi, I am a Srikar, I am a Full Stack Developer, If you need a Website, then email me may be."
+		/>
+		<meta name="twitter:image" content="https://programmerSrikar.me/img/icon.jpg" />
+		<!-- Twitter Card Ends  -->
+		<!-- Open Graph Protocol  -->
+		<meta property="og:title" content="Programmer Srikar" />
+		<meta
+			property="og:description"
+			content="Hi, I am a Srikar, I am a Full Stack Developer, If you need a Website, then email me may be."
+		/>
+		<meta property="og:type" content="image.jpg" />
+		<meta property="og:url" content="https://programmeSrikar.me" />
+		<meta property="og:image" content="https://programmerSrikar.me/img/icon.jpg" />
+		<meta property="og:site_name" content="programmerSrikar" />
+		<!-- Open Graph Protocol Ends  -->
+		<link rel="icon" href="img/icon.png" />
+		<link rel="stylesheet" href="css/grid.min.css" />
+		<link rel="stylesheet" href="css/style.min.css" />
+		<style>
+			.form {
+				display: flex;
+				flex-direction: column;
+				align-items: center; /* Centers children horizontally */
+				justify-content: center; /* Centers children vertically */
+				height: 50vh; /* Use the full height of the viewport */
+			}
+			
+			.text-center {
+				text-align: center; /* Centers text */
+				 /* Ensures it spans the full width of its parent */
+			}
+			
+			.email-link p {
+				margin: 20px 0; /* Adds space above and below the paragraph */
+			}
+			
+			.resume-button {
+				display: inline-flex;
+				align-items: center; /* Aligns the icon and text */
+				justify-content: center;
+				padding: 10px 20px;
+				text-decoration: none; /* Removes underline from the link */
+				color: #ffffff; /* Button text color */
+				background-color: #0078d4; /* Button background color, Outlook blue */
+				border-radius: 5px; /* Rounded corners */
+				font-weight: bold; /* Bold font */
+				transition: background-color 0.3s; /* Smooth transition for hover effect */
+			}
+			
+			.resume-button:hover {
+				background-color: #005a9e; /* Darker shade on hover */
+			}
+			
+			.resume-button img {
+				margin-right: 8px; /* Adds spacing between the icon and the text */
+			}
+			
+
+
+
+
+
+			.projects-container {
+				text-align: center;
+				margin: auto;
+				max-width: 800px; /* Adjust the width as needed */
+			  }
+			  
+			  .projects-title {
+				font-size: 2rem;
+				color: #555; /* Or any color you prefer */
+				margin-bottom: 1rem;
+				position: relative;
+			  }
+			  
+			  .projects-title:after {
+				content: '';
+				position: absolute;
+				left: 50%;
+				bottom: -10px;
+				transform: translateX(-50%);
+				height: 4px;
+				width: 70px; /* Length of the underline */
+				background-color: black; /* Or any color you prefer */
+			  }
+			  
+			  .project-item:not(:last-child) {
+				margin-bottom: 2rem;
+			  }
+			  
+			  .project-heading {
+				color: black; /* Or any color you prefer */
+				font-size: 1.5rem;
+				margin-bottom: 0.5rem;
+			  }
+			  
+			  .project-description {
+				color: #333; /* Or any color you prefer */
+				font-size: 1rem;
+			  }
+			  
+			  
+			
+			
+			.resume-button {
+			display: inline-block;
+			margin-top: 25px;
+			padding: 10px 20px;
+			background-color: #8a2be2; /* Purple background color */
+			color: white; /* White text color */
+			border-radius: 25px; /* Rounded corners */
+			text-align: center;
+			text-decoration: none; /* Remove underline from the link */
+			font-weight: bold; /* Make font bold */
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+			transition: background-color 0.3s, box-shadow 0.3s; /* Transition for hover effects */
+		}
+		
+		.resume-button:hover {
+			background-color: #7b1fa2; /* Darker purple background on hover */
+			box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
+		}
+		
+		/* Optional: Adjust the flex container */
+		.d-flex {
+			justify-content: center; /* Center the button horizontally */
+			align-items: center; /* Center the button vertically */
+			height: 100%; /* Full height of the container */
+		}
+		</style>
+	</head>
+
+	<body>
+		<!-- Loader screen -->
+		<div class="se-pre-con"></div>
+		<!-- Loader Screen Ends -->
+		<!-- Navbar Starts  -->
+		<nav class="navbar">
+			<div class="container">
+				<a href="#home" class="navbar-brand">
+					<h1>Programmer Srikar</h1>
+				</a>
+				<div class="toggle">
+					<img src="/img/footer/bars.svg" alt="">
+				</div>
+				<div class="navbar-nav">
+					<a href="#home" class="nav-item">Home</a>
+					<a href="#about" class="nav-item">About</a>
+					<a href="#skills" class="nav-item">Skills</a>
+					<a href="#work" class="nav-item">Work</a>
+					<a href="#contact" class="nav-item">Contact</a>
+				</div>
+			</div>
+		</nav>
+		<!-- Navbar Ends  -->
+		<!-- Home starts  -->
+		<section>
+			<div class="parallax" id="home">
+				<div class="container-fluid home">
+					<div class="row">
+						<div class="col-12 typing">
+							<div id="typed-strings">
+								<h2>Hi, I am Srikar.</h2>
+								<h2>I am a Full Stack Developer.</h2>
+								<h2>I Love Coding.</h2>
+							</div>
+							<span id="typed"></span>
+						</div>
+						<div class="col-12 subtitle">
+							<p>
+								I'm the DIY(Do it yourself) Developer.
+							</p>
+						</div>
+						<div class="col-12">
+							<div class="siema">
+								<div>
+									<img alt="Sample Work" src="img/home/work1.webp" />
+								</div>
+								<div>
+									<img alt="Sample Work" src="img/home/work2.webp" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Home Ends  -->
+		<!-- About Starts  -->
+		<section>
+			<div class="container about" id="about">
+				<div class="row">
+					<div class="col-12">
+						<h2>About Me</h2>
+					</div>
+					<div class="row about-wrapper">
+						<div class="row">
+							<section >
+								<div class="container" >
+									<div class="row" >
+										<!-- Profile Image Column -->
+										<div class="col-sm-4" >
+											<div class="about-wrapper__image">
+												<img
+												alt="Profile Image"
+												class="img-fluid rounded shadow-lg"
+												height="auto"
+												width="300px"
+												src="img/profile.jpeg"
+											/>
+											</div>
+										</div>
+										
+										<!-- Profile Description Column -->
+										<div class="col-sm-6">
+											<div class="about-wrapper__info">
+												
+												<p style="position:relative;Top: 80px;">
+													I am a full stack developer with a passion for learning and
+													building new things. I am currently pursuing my masters in
+													Information Systems at the Central Michigan University. I
+													have experience in building web applications using React,
+													Node.js, Express.js, MongoDB, MySQL, HTML, CSS, JavaScript,
+													Bootstrap, Material UI, and Git.<br>
+													<span class="d-flex mt-3">
+														<a href="img/Srikar_Punna.pdf" class="resume-button">View Resume</a>
+													</span>
+													
+													
+											
+												</p>
+												
+												  
+											</div>
+											
+										</div>
+										<span class="d-flex mt-3">
+											<!-- <a
+											style=" border: 2px solid #e7e7e7;"
+											  rel="noreferrer"
+											  target="_blank"
+											  class="cta-btn cta-btn--resume"
+											  href="assets/resume.pdf"
+											>
+											  View Resume
+											</a> -->
+											
+										  </span>
+									</div>
+								</div>
+							</section>
+							
+						</div>
+						<div class="col-12" style="margin-top: 65px;">
+							<h2>Why Choose Me</h2>
+						</div>
+					<div class="col-6 col-lg-3">
+					
+						<div class="about-card wow backInLeft">
+							<span class="iconify" data-icon="mdi:responsive" data-inline="false"></span>
+							<p>Responsive</p>
+						</div>
+					</div>
+					<div class="col-6 col-lg-3">
+						<div class="about-card wow backInLeft" data-wow-delay="0.2s">
+							<span class="iconify" data-icon="ic:baseline-design-services" data-inline="false"></span>
+							<p>Design</p>
+						</div>
+					</div>
+					<div class="col-6 col-lg-3">
+						<div class="about-card wow backInLeft" data-wow-delay="0.4s">
+							<span class="iconify" data-icon="ion:rocket-outline" data-inline="false"></span>
+							<p>Fast</p>
+						</div>
+					</div>
+					<div class="col-6 col-lg-3">
+						<div class="about-card wow backInLeft" data-wow-delay="0.6s">
+							<span class="iconify" data-icon="whh:seo" data-inline="false"></span>
+							<p>seo</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+		</section>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+		<!-- About Ends  -->
+		<!-- My skills Starts  -->
+		<section>
+			<div class="container-fluid skills" id="skills">
+				<div class="row">
+					<div class="col-12">
+						<h2>My Superpowers</h2>
+					</div>
+					<div class="col-12">
+						<div class="skill">
+							<div>
+								<img alt="HTML5" src="img/skills/html-5.svg" />
+								<p>HTML5</p>
+							</div>
+							<div>
+								<img alt="CSS3" src="img/skills/css3.svg" />
+								<p>CSS3</p>
+							</div>
+							<div>
+								<img alt="CSS3" src="img/skills/python_logo.png" />
+								<p>Python</p>
+							</div>
+							<div>
+								<img alt="BootStrap" src="img/skills/bootstrap.svg" />
+								<p>BootStrap</p>
+							</div>
+							<div>
+								<img alt="JavaScript" src="img/skills/js.svg" />
+								<p>JavaScript</p>
+							</div>
+							<div>
+								<img alt="React JS" src="img/skills/reactjs.svg" />
+								<p>React JS</p>
+							</div>
+							<div>
+								<img alt="jQuery" src="img/skills/jquery.svg" />
+								<p>jQuery</p>
+							</div>
+							<div>
+								<img alt="Django" src="img/skills/django.svg" />
+								<p>Django</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- My skills Ends  -->
+		<!-- My Work Start  -->
+		<section>
+			<div class="container-fluid work" id="work" style="background-color: white;">
+				<div class="row">
+					<div class="col-12">
+						<h2 style="color: black;">My Work</h2>
+					</div>
+				</div>
+				<div class="projects-container">
+					<div class="project-item">
+						<h3 class="project-heading">Data Discovery Tool</h3>
+						<p class="project-description">A transformative solution engineered to streamline data accessibility across the organization. This Data Discoverability Tool, which I developed, significantly enhanced metadata management and facilitated swift data searches, leading to a 35% improvement in lookup times. It features robust OAuth 2.0 security protocols, a Python and FastAPI-powered backend, and Elasticsearch for efficient searchability, all integrated into a React and TypeScript frontend.</p>
+					  </div>
+				  
+					<div class="project-item">
+					  <h3 class="project-heading">Carpool Management System for Students</h3>
+					  <p class="project-description">Developed a comprehensive Carpool Management System tailored for students seeking efficient and free transportation within the city. This intuitive platform offers a dual-functionality interface: riders can easily register and manage their journeys, while those in need of a ride can book and track their trips in real-time. Emphasizing convenience and community, the system includes a detailed schedule of buses, mapped bus stops, and real-time updates, ensuring a seamless travel experience for the student body.</p>
+					</div>
+				  
+					<div class="project-item">
+					  <h3 class="project-heading">State Teacher Eligibility Test</h3>
+					  <p class="project-description">An innovative web application designed to automate and expedite the eligibility verification process for teachers taking the state eligibility test. I reimagined the user experience with a React and TypeScript frontend, ensuring seamless document submission. The backend was upgraded to FastAPI for optimal performance, with PostgreSQL enhancing data management, all tied together with AWS services for a secure and fast deployment.</p>
+					</div>
+				  
+				
+				  </div>
+				  
+				
+			</div>
+		</section>
+		
+		  
+		
+		
+		
+		
+		<!-- My Work Ends  -->
+		<!-- Activities Start  -->
+		<!-- <div class="container">
+			<div class="row activities">
+				<div class="col-12">
+					<h2>Activities Chart</h2>
+				</div>
+				<div class="col-12">
+					<codersrank-activity username="codepyrater" branding="false" labels tooltip weeks>
+					</codersrank-activity>
+				</div>
+			</div>
+		</div> -->
+		<!-- Activities Ends  -->
+		<!-- Work Experience Starts  -->
+		<section>
+			<div class="container experience">
+				<div class="row">
+					<div class="col-12">
+						<h2>Work Experience</h2>
+					</div>
+					<div class="col-12">
+						<!--  -->
+						<div class="row">
+							<div class="col-12 col-xl-4 title">
+								<h3>Software Engineer Intern</h3>
+								<p>May 2023 - August 2023</p>
+							</div>
+							<div class="col-12 col-xl-8 company">
+								<div class="box">
+									<h3>Rocket Central </h3>
+									<ul>
+										<li>Pioneered a data discoverability tool enhancing metadata management and spearheaded the integration of OAuth 2.0 in a React TypeScript environment, fortifying user security. </li>
+                                        <li>Expertly managed CI/CD pipelines with CircleCI and optimized cloud infrastructure with AWS services, ensuring peak performance.</li>
+
+
+
+									</ul>
+									
+								</div>
+								
+							</div>
+						</div>
+						<!--  -->
+						<!--  -->
+						<div class="row">
+							<div class="col-12 col-xl-4 title">
+								<h3>Associate Software Engineer</h3>
+								<p>June 2021 - Dec 2021</p>
+							</div>
+							<div class="col-12 col-xl-8 company">
+								<div class="box">
+									<h3>Tata Consultancy Services</h3>
+									<ul>
+										<li>
+											Crafted responsive web interfaces with Angular, HTML, CSS, and JavaScript, boosting digital engagement through high-performance single-page applications. 
+										</li>
+										<li>Drove Agile projects to successful delivery, focusing on solution design, code quality, and budget adherence.
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!--  -->
+						<!--  -->
+						<div class="row">
+							<div class="col-12 col-xl-4 title">
+								<h3>Content Writing Intern</h3>
+								<p>June 2019 - March 2020</p>
+							</div>
+							<div class="col-12 col-xl-8 company">
+								<div class="box">
+									<h3>Outshade Digital Media</h3>
+									<ul>
+										<li>Generated engaging content across various platforms by conducting thorough industry research and understanding customer needs, supporting marketing initiatives with creative campaign material.</li>
+									<li>Assisting the marketing team in developing content for advertising campaigns</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!--  -->
+						<!--  -->
+					
+						<!--  -->
+					
+						</div>
+						<!--  -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Work Experience Ends  -->
+		<!-- My Contact Starts  -->
+		<section class="bg">
+			<div class="container contact" id="contact">
+				<div class="row">
+					<div class="col-12">
+						<h2>Contact</h2>
+					</div>
+					<div class="col-12 col-md-8 col-lg-8">
+						<form id="contact" class="form">
+							<h3 class="text-center">Let's Chat</h3>
+							
+							<div class="text-center email-link">
+								<p>If you want to contact me, send me an email:</p>
+								<img style="width: 50px; height: 50px;" src="img/Outlook.png" alt="Outlook Icon" />
+								
+							</div>
+							<a class="resume-button" rel="noreferrer" target="_blank" href="mailto:srikarv526@gmail.com">
+								Send
+						   </a>
+						</form>
+
+						
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- My Contact Ends  -->
+		<!-- Footer Starts  -->
+		<section>
+			<!-- <div class="container-fluid footer">
+				<div class="row">
+					<div class="col-12">
+						<img alt="programmerSrikar" src="img/namewhite.webp" class="footer-title"/>
+					</div>
+					<div class="col-12">
+						<div class="soc">
+							<a title="Github profile Link" target="_blank" href="https://github.com/programmerSrikar">
+								<img src="/img/footer/github.svg" alt="" class="github">
+							</a>
+						</div>
+						<div class="soc">
+							<a
+								title="Facebook profile link"
+								target="_blank"
+								href="https://www.facebook.com/profile.php?id=100026746380141"
+							>
+								<img src="/img/footer/facebook.svg" alt="" class="facebook">
+							</a>
+						</div>
+						<div class="soc">
+							<a
+								title="Instagram profile link"
+								target="_blank"
+								href="https://www.instagram.com/programmerSrikar/"
+							>
+								<img src="/img/footer/instagram.svg" alt="" class="instagram">
+							</a>
+						</div>
+						<div class="soc">
+							<a
+								title="linkedin profile link"
+								target="_blank"
+								href="https://www.linkedin.com/in/programmerSrikar/"
+							>
+								<img src="/img/footer/linkedin.svg" alt="" class="linkedin">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div> -->
+			<div class="copyright">
+				<span>Srikar Punna &copy;2024</span>
+			</div>
+		</section>
+		<!-- Footer Ends  -->
+		<section></section>
+		<!-- Schema Starts  -->
+		<!-- <script type="application/ld+json">
+			{
+				"@context": "http://schema.org",
+				"@type": "Person",
+				"name": "programmerSrikar",
+				"url": "https://programmerSrikar.me",
+				"sameAs": [
+					"https://www.instagram.com/programmerSrikar/",
+					"https://www.linkedin.com/in/Srikar-gupta-ab8b7a175/",
+					"https://twitter.com/ProgrammerGRG",
+					"https://www.facebook.com/profile.php?id=100026746380141",
+					"https://github.com/programmerSrikar"
+				]
+			}
+		</script> -->
+		<!-- schema ends -->
+		<!-- Some text for seo -->
+		<div style="display: none">
+			<img src="img/programmerSrikar.jpg" alt="programmerSrikar" title="programmerSrikar" />
+			
+		</div>
+		<!-- seo text end -->
+		<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/siema.min.js"></script>
+		<script src="js/typed.min.js"></script>
+		<script src="js/codersrank-activity.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
