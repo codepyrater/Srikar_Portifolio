@@ -10,14 +10,17 @@ I'm Srikar Punna, a software engineer specializing in full-stack web development
 
 Here's a highlight of some projects that I've worked on:
 
-### Carpool Management System for Students
-A web application designed to simplify transportation for students by providing a platform for ride-sharing. Features real-time tracking and scheduling for efficient commute within the city.
 
 ### State Teacher Eligibility Test Platform
-An end-to-end solution facilitating the eligibility verification process for aspiring teachers. It streamlines document management, improving the overall user experience and operational efficiency.
+Involved in project to develop a sophisticated e-commerce web application with Angular, enhancing user engagement through a responsive interface. Collaborated on creating efficient RESTful APIs and managed Jenkins for streamlined CI/CD processes. Oversaw AWS deployment to ensure robust backend scalability and high availability. Actively contributed to Agile development, meeting project goals and timelines
+					
 
 ### Data Discoverability Tool
 Developed to enhance metadata management within organizations, this tool improves data searchability and access control, resulting in a significant improvement in metadata lookup times.
+
+### Carpool Management System for Students
+A web application designed to simplify transportation for students by providing a platform for ride-sharing. Features real-time tracking and scheduling for efficient commute within the city.
+
 
 ## Skills
 
